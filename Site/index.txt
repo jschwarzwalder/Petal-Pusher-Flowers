@@ -1,0 +1,16 @@
+
+$(document).ready(function(){
+    $(".read-more").click(function(){
+        var $elem = $(this).parent().find(".text");
+        if($elem.hasClass("short"))
+        {
+            $elem.removeClass("short").addClass("full");
+			$(this).text('Show less');
+        }
+        else
+        {
+            $elem.removeClass("full").addClass("short");
+			$(this).text('Show more');
+        }
+    });
+});
