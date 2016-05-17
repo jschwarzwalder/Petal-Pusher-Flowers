@@ -10,6 +10,33 @@ body {
 	padding: 10px 0px;
 	vertical-align: text-bottom;
 }
-h1,h2,h3,h4, nav-brand {
-  font-family: "nimbus-sans-condensed";
-  }
+
+body {
+  font-family: "nimbus-sans-condensed",'PT Sans Narrow', sans-serif;
+  font-size:large;
+ 
+}
+.define h3, h4 {
+  font-weight:700;
+}
+nav {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:url('../images/Potential%20Header.jpg');
+  background-position: center top;
+  background-size:contain;
+  color:white;
+  font-weight: 700;
+}
+.navbar-brand, .navbar-default{
+  font-size:24px;
+  color:white;
+  font-weight: 700;
+  text-shadow: 2px 2px #009933;
+}
+.portfolio img {
+  margin: 0px auto;
+}
+.portfolio {
+  margin: inherit 10px;
+}
