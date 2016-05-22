@@ -19,14 +19,14 @@ body {
 .define h3, h4 {
   font-weight:700;
 }
-nav .brand {
+.brand {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image:url('../images/Potential%20Header.jpg');
   background-position: center top;
   background-size:contain;
 }
-nav .main {
+.main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image:url('../images/Potential%20Header.jpg');
