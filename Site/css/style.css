@@ -41,8 +41,13 @@ nav .main {
   text-shadow: 2px 2px #354F3A;
   text-decoration:none;
 }
-.navbar-default a:hover{
+
+nav .navbar-collapse {
+	padding: 0px 15px;
+}
+.navbar-default a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
 	color: #ABEFB9;
+	text-decoration:none;
 }
 .portfolio img {
   margin: 0px auto;
