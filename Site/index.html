@@ -35,12 +35,21 @@
     
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	
+	<link rel="import" href="header.html">
   </head>
 
   <body>
+	<div id="header"></div>
+	<script>
+		var link = document.querySelector('link[rel="import"]');
 
-<script language="javascript" type="text/javascript" 
-  src="header.js"></script>
+		// Clone the <nav> in the import.
+		var nav = link.import.querySelector('nav');
+		var clone = document.importNode(nav.content, true);
+
+		document.querySelector('#header').appendChild(clone);
+	</script>
 
    
 
