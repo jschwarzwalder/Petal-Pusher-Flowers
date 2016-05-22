@@ -25,6 +25,7 @@ body {
   background-image:url('../images/Potential%20Header.jpg');
   background-position: center top;
   background-size:contain;
+  padding: 0px 30px;
 }
 .main {
   background-repeat: no-repeat;
@@ -32,6 +33,7 @@ body {
   background-image:url('../images/Potential%20Header.jpg');
   background-position: center top;
   background-size:contain;
+  padding: 0px 30px;
 }
 
 .navbar-brand, .navbar-default, .logo{
