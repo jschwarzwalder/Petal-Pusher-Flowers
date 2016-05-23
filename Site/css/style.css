@@ -19,21 +19,18 @@ body {
 .define h3, h4 {
   font-weight:700;
 }
-.brand {
+nav {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image:url('../img/header-brand.jpg');
+  background-image:url('../img/header.jpg');
   background-position: top;
   background-size:contain;
-  padding: 0px 30px;
-  vertical-align: bottom;
+}
+.brand {
+	margin-top:133px;
 }
 .main {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image:url('../img/header-main.jpg');
-  background-position:top;
-  background-size: inherit;
+
   padding: 0 30px;
 }
 
