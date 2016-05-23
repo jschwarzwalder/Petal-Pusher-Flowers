@@ -1,5 +1,8 @@
 body {
   min-height: 2000px;
+  background-color: green;
+  font-family: "nimbus-sans-condensed",'PT Sans Narrow', sans-serif;
+  font-size:large;
 }
 
 .navbar-static-top {
@@ -11,26 +14,18 @@ body {
 	vertical-align: text-bottom;
 }
 
-body {
-  font-family: "nimbus-sans-condensed",'PT Sans Narrow', sans-serif;
-  font-size:large;
- 
-}
 .define h3, h4 {
   font-weight:700;
 }
-nav {
+#header {
+  background-color: #336600;
 }
 .brand {
 	padding: 0 30px;
 	text-align:left;
 }
 .main {
-  background-repeat: repeat-y;
-  background-attachment: scroll;
-  background-image:url('../img/header-main.jpg');
-  background-position: top;
-  background-size:cover;
+
   padding: 0 30px;
 }
 
@@ -40,6 +35,7 @@ nav {
   font-weight: 700;
   text-shadow: 2px 2px #354F3A;
   text-decoration:none;
+   background-color: #336600;
 }
 
 nav .navbar-collapse {
