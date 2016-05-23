@@ -57,3 +57,9 @@ nav .navbar-collapse {
 .portfolio {
   margin: inherit 10px;
 }
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+	flex-direction: row;
+}
