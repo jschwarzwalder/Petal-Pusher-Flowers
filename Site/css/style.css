@@ -21,13 +21,14 @@ body {
 }
 nav {
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image:url('../img/header.jpg');
   background-position: top;
   background-size:contain;
 }
 .brand {
-	margin-top:133px;
+	margin-top:125px;
+	text-shadow: -2px -2px #354F3A;
 }
 .main {
 
