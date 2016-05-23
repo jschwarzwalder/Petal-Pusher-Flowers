@@ -20,18 +20,17 @@ body {
   font-weight:700;
 }
 nav {
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-image:url('../img/header.jpg');
-  background-position: top;
-  background-size:contain;
 }
 .brand {
-	margin-top:125px;
-	text-shadow: -2px -2px #354F3A;
+	padding: 0 30px;
+	text-align:left;
 }
 .main {
-
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  background-image:url('../img/header-main.jpg');
+  background-position: top;
+  background-size:cover;
   padding: 0 30px;
 }
 
