@@ -51,6 +51,10 @@ nav .navbar-collapse {
 	padding: 0px 15px;
 }
 
+nav .navbar-center {
+	text-align:center;
+}
+
 .portfolio img {
   margin: 0px auto;
 }
@@ -61,5 +65,5 @@ nav .navbar-collapse {
 .vertical-align {
     display: flex;
     align-items: center;
-	flex-direction: row;
+
 }
