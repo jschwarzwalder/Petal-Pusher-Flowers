@@ -67,3 +67,15 @@ nav .navbar-center {
     align-items: center;
 
 }
+.bottom-align {
+   display: flex;
+   align-items: baseline;
+}
+
+h1, .nav-paragraph {
+  font-family: 'Satisfy', cursive;
+}
+
+.nav-paragraph {
+  vertical-align:bottom;
+}
