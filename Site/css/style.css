@@ -23,11 +23,9 @@ body {
   text-shadow: 2px 2px #306430;
   text-shadow: -2px 2px #306430; 
   text-decoration:none;
- background-color:#174517;
- 
-		   
-  
+  background-color:transparent;
 }
+
 .navbar-default a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
 	color:#95c095;
 	text-decoration:none;
@@ -35,7 +33,9 @@ body {
 .navbar-static-top {
   margin-bottom: 19px;
 }
-
+.navbar-default{
+border-color: transparent;
+}
 .define {
 	padding: 10px 0px;
 	vertical-align: text-bottom;
@@ -59,9 +59,14 @@ nav button {
   text-align:center;
 
 }
+nav img {
+   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
 
 nav .navbar-collapse {
-	padding: 10px 15px;
+	padding: 0 15px;
 }
 
 nav .navbar-center {
