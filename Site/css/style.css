@@ -1,28 +1,21 @@
 body {
   padding-bottom: 15px;
-  background-color: #5f985f;
-  font-family: 'Francois One', sans-serif;
-  font-size:large;
-}
-#header {
-  
-   
-}
-.navbar {
   background: -moz-linear-gradient(
            top,
            #174517  0%,
-           #174517  50%,
-           #174517 92%,
-           #174517 );
+           #174517  25%,
+           #5f985f 75%,
+           #5f985f );
    background: -webkit-gradient(
            linear, left top, left bottom,
            from(#174517 ),
-           color-stop(0.50, #174517 ),
-           color-stop(0.92,  #5f985f ),
+           color-stop(0.25, #174517 ),
+           color-stop(0.75,  #5f985f ),
            to(  #5f985f));
-  }
-           
+  font-family: 'Francois One', sans-serif;
+  font-size:large;
+}
+   
 .navbar-brand, .navbar-default, .logo, .navbar-default .navbar-nav li a {
   font-size: larger;
   color: #cce2cc;
@@ -30,7 +23,7 @@ body {
   text-shadow: 2px 2px #306430;
   text-shadow: -2px 2px #306430; 
   text-decoration:none;
- 
+ background-color:#174517;
  
 		   
   
