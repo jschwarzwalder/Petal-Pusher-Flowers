@@ -14,23 +14,23 @@
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/Slide1.jpg' Onw);"></div>
+                <img class="img-responsive" src="img/Slide1.jpg" alt="First Slide">
             </div>
-            <div class="item">
+			<div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/Slide2.jpg' Onw);"></div>
+                <img class="img-responsive" src="img/Slide2.jpg" alt="Second Slide">
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/Slide3.jpg' Onw);"></div>
+                <img class="img-responsive" src="img/Slide3.jpg" alt="Third Slide">
             </div>
 			<div class="item">
                 <!-- Set the fourth background image using inline CSS below. -->
-                 <div class="fill" style="background-image:url('img/Slide4.jpg' Onw);"></div>
+                <img class="img-responsive" src="img/Slide4.jpg" alt="Fourth Slide">
             </div>
 			<div class="item">
                 <!-- Set the fifth background image using inline CSS below. -->
-                 <div class="fill" style="background-image:url('img/Slide5.jpg' Onw);"></div>
+                <img class="img-responsive" src="img/Slide5.jpg" alt="Fifth Slide">
             </div>
         </div>
 
