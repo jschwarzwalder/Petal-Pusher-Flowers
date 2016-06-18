@@ -18,58 +18,58 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+	
+	 <!-- Loading jQuery -->
+	<script src="js/jquery-1.12.3.min.js"></script>
 
-     <!-- Loading jQuery -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-
-    <div id="fonts"></div>
-
+	<div id="fonts"></div>
+	
   </head>
 
   <body>
-    <div id="header"></div>
-    <script>
-        $("#header").load("header.html");
-        $("#fonts").load("fonts.html");
+	<div id="header"></div>
+	<script>
+		$("#header").load("header.html");
+		$("#fonts").load("fonts.html");
 
-    </script>
+	</script>
 
     <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron text-center">
       <p>Serving the Greater Seattle Area, Bellevue, South King County and Tacoma. Weddings and Events out of the area priced on individual needs.</p>
+     
+		<p>Thank you for taking the time to view our page</p>
+	
+		<p><a href="mailto:petalpusherflowerswa@gmail.com">
+			<i class="fa fa-envelope" aria-hidden="true"></i>  Petalpusherflowerswa@gmail.com
+			</a></p>
+		<p>
+			<i class="fa fa-phone" aria-hidden="true"></i> (206) 476-2910
+		</p>
+		<p>&nbsp;</p>
+		<p class="text-center">Custom work and higher priced arrangements based on an individual basis.</p>
+	<p>&nbsp;</p>
+			 <h3 class="text-center"> <a href="contact.html">Contact us</a> for more information.</h3>
+	 </div> <!-- /jumbotron -->
+	      </div> <!-- /container -->
 
-        <p>Thank you for taking the time to view our page</p>
-
-        <p><a href="mailto:petalpusherflowerswa@gmail.com">
-            <i class="fa fa-envelope" aria-hidden="true"></i>  Petalpusherflowerswa@gmail.com
-            </a></p>
-        <p>
-            <i class="fa fa-phone" aria-hidden="true"></i> (206) 476-2910
-        </p>
-        <p>&nbsp;</p>
-        <p class="text-center">Custom work and higher priced arrangements based on an individual basis.</p>
-    <p>&nbsp;</p>
-             <h3 class="text-center"> <a href="contact.html">Contact us</a> for more information.</h3>
-     </div> <!-- /jumbotron -->
-          </div> <!-- /container -->
-
-<div id="footer"></div>
+<div id="footer"></div>	
 
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
-
+  
+	
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-            <script>
-        $("#footer").load("footer.html");
-    </script>
-
+			<script>
+		$("#footer").load("footer.html");
+	</script>
+	
   </body>
 </html>

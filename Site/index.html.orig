@@ -18,28 +18,28 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-
+    
     <!-- Custom styles for slideshow -->
      <link href="css/half-slider.css" rel="stylesheet">
+	
+	 <!-- Loading jQuery -->
+	<script src="js/jquery-1.12.3.min.js"></script>
 
-     <!-- Loading jQuery -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-
-    <div id="fonts"></div>
-
+	<div id="fonts"></div>
+	
   </head>
 
   <body>
+  
+	<div id="header"></div>
+	<script>
+		$("#header").load("header.html");
+		$("#fonts").load("fonts.html");
+	
+	</script>
+	
 
-    <div id="header"></div>
-    <script>
-        $("#header").load("header.html");
-        $("#fonts").load("fonts.html");
-
-    </script>
-
-
-
+   
 
     <div class="container">
 
@@ -54,8 +54,8 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
         </ol>
 
          <!-- Wrapper for Slides -->
@@ -64,7 +64,7 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <img class="img-responsive" src="img/Slide1.jpg" alt="First Slide">
             </div>
-            <div class="item">
+			<div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <img class="img-responsive" src="img/Slide2.jpg" alt="Second Slide">
             </div>
@@ -72,11 +72,11 @@
                 <!-- Set the third background image using inline CSS below. -->
                 <img class="img-responsive" src="img/Slide3.jpg" alt="Third Slide">
             </div>
-            <div class="item">
+			<div class="item">
                 <!-- Set the fourth background image using inline CSS below. -->
                 <img class="img-responsive" src="img/Slide4.jpg" alt="Fourth Slide">
             </div>
-            <div class="item">
+			<div class="item">
                 <!-- Set the fifth background image using inline CSS below. -->
                 <img class="img-responsive" src="img/Slide5.jpg" alt="Fifth Slide">
             </div>
@@ -91,22 +91,22 @@
         </a>
 
     </div>
-        <p>&nbsp;</p>
-        <p>Floral services with a personal touch. Everything we do is custom. We have a passion for what we do.</p>
-        <p>Style is crisp, clean and colorful.</p>
-        <p>Our customers are very important to us. We strive to give the best customer service possible.</p>
-    <p>&nbsp;</p>
-             <h3 class="text-center"> <a href="contact.html">Contact us</a> for more information.</h3>
-     </div> <!-- /jumbotron -->
-          </div> <!-- /container -->
-    <div id="footer"></div>
+		<p>&nbsp;</p>
+		<p>Floral services with a personal touch. Everything we do is custom. We have a passion for what we do.</p>
+		<p>Style is crisp, clean and colorful.</p>
+		<p>Our customers are very important to us. We strive to give the best customer service possible.</p>
+	<p>&nbsp;</p>
+			 <h3 class="text-center"> <a href="contact.html">Contact us</a> for more information.</h3>
+	 </div> <!-- /jumbotron -->
+	      </div> <!-- /container -->	
+	<div id="footer"></div>		
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
-
+  
+	
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
@@ -114,7 +114,7 @@
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
-        $("#footer").load("footer.html");
+    	$("#footer").load("footer.html");
     </script>
  </body>
 </html>

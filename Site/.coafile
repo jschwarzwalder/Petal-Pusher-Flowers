@@ -1,0 +1,5 @@
+[Default]
+bears = SpaceConsistencyBear
+files = *.html
+use_spaces = true
+default_actions = *: ApplyPatchAction

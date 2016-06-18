@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Flowers, delivery">
+    <meta name="author" content="Petal Pusher Flowers">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+
+    <title>Petal Pusher Flowers</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	 <!-- Loading jQuery -->
+	<script src="js/jquery-1.12.3.min.js"></script>
+
+	<div id="fonts"></div>
+	
+  </head>
+
+  <body>
+	<div id="header"></div>
+	<script>
+		$("#header").load("header.html");
+		$("#fonts").load("fonts.html");
+		$("#footer").load("footer.html");		
+	</script>
+	
+
+   
+   
+
+    <div class="container">
+		 <div class="jumbotron">
+      <!-- Main component for a primary marketing message or call to action -->
+		<div class="col-xs-12 col-md-6">
+		   <h3>Designs</h3>
+			<p>Designs are clean, crisp, colorful, professional and a little whimsical. </p>
+			<p>Floral services with a personal touch. Everything we do is original.</p>
+			<p>We have a passion for what we do. We strive to give to provide the best customer service.</p>
+			<p>We use local vendors to ensure freshness.</p>
+
+			<p>Just a little something to brighten the day.</p>
+		</div>
+		<div class="col-xs-12 col-md-6">
+			 <h3>Experience</h3>
+			<p>Some of the events participated in Mt Pilchuck auction, Lowell school events, Seattle men's Chorus auction.</p>
+			<p>We participate in floral design classes and seminars to keep current with Designs & Trends.   
+			<p>Serving the Greater Seattle Area, Bellevue, South King County and Tacoma. Weddings and Events out of the area priced on individual needs.</p>
+		</div>
+			<p>&nbsp;</p>
+			 <h3 class="text-center"> <a href="contact.html">Contact us</a> for more information.</h3>
+	 </div> <!-- /jumbotron -->
+	      </div> <!-- /container -->
+	<div id="footer"></div>	
+
+
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+			<script>
+		$("#footer").load("footer.html");
+	</script>
+	
+  </body>
+</html>

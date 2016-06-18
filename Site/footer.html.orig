@@ -1,0 +1,18 @@
+
+	  <div class="row footer">
+	<div class="col-xs-6">
+		<p class="text-left">&copy; <span id="year"></span></p>
+		
+	</div>
+	<div class="col-xs-6">
+	<p class="text-right"> Built by <a href="http://jschwarzwalder.neocities.org/">Jami Schwarzwalder</a></p>
+	</div>
+	</div><!-- /row -->
+	
+
+	
+
+	<script>
+	var year = new Date();
+	document.getElementById("year").innerHTML = year.getFullYear();
+	</script>

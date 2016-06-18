@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Flowers, delivery">
+    <meta name="author" content="Petal Pusher Flowers">
+     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+
+    <title>Petal Pusher Flowers</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	 <!-- Loading jQuery -->
+	<script src="js/jquery-1.12.3.min.js"></script>
+
+	<div id="fonts"></div>
+	
+  </head>
+
+  <body>
+	<div id="header"></div>
+	<script>
+		$("#header").load("header.html");
+		$("#fonts").load("fonts.html");
+		$("#footer").load("footer.html");
+	</script>
+	
+
+   
+
+
+    <div class="container">
+	<div class="jumbotron">
+      <!-- Main component for a primary marketing message or call to action -->
+       <div class="row define">
+		   <div class="col-sm-2">
+				<h4>Bouquets</h4> 
+			</div>
+			<div class="col-sm-10">
+					<p>A mixture of flowers with a farmer's market flair.</p>
+			</div>
+		</div>
+		<div class="row define">
+		    <div class="col-sm-2">
+				<h4>Arrangements </h4>
+			</div>
+			<div class="col-sm-10">
+				<p>Flowers arrive in a vase.</p>
+			</div>
+		</div>
+		<div class="row define">
+		   <div class="col-sm-2">
+				<h4>Events </h4></div>
+			<div class="col-sm-10">
+				<p>We work with event planners, caterers and wedding planners. An event can be a small house party or a celebration. All priced on an individual basis.</p>
+			</div>
+		 </div>
+		 <div class="row define">
+		   <div class="col-sm-2">
+				<h4>Business </h4>
+			</div>
+			<div class="col-sm-10">
+				<p>Restaurant and office services subscription services. Have an arrangement delivered weekly or biweekly to your place of business. Restaurants provide arrangements for tables, reception areas. If you have vessels that we can use we can easily use them. Priced on an individual basis.</p>
+			</div>
+		 </div>
+		 <div class="row define">
+		   <div class="col-sm-2">
+				<h4>Weddings</h4> </div>
+			<div class="col-sm-10">
+				<p>Consultations are complimentary. We work with the customers needs. We work with wedding planners, caterers and email correspondence also.</p>
+			</div>
+		 </div>
+		 <div class="row define">
+		   <div class="col-sm-2">
+				<h4>Corsages & Boutonnieres</h4> 
+			</div>
+			<div class="col-sm-10">
+				<p>Prom orders with affordable prices will be delivered to the school. Order forms can be brought to the school or contact us by email.</p>
+			</div>
+		</div>
+		<div class="row define">
+			 <div class="col-sm-10 col-sm-offset-1">
+				<p class="text-center">Custom work and higher priced arrangements based on an individual basis.</p>
+			</div>
+		</div>
+			
+	 	<p>&nbsp;</p>
+			 <h3 class="text-center"> <a href="contact.html">Contact us</a> for more information.</h3>
+	 </div> <!-- /jumbotron -->
+	      </div> <!-- /container -->
+    </div><div id="footer"></div>	
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  
+	
+    <script src="js/bootstrap.min.js"></script>
+   
+   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+			<script>
+		$("#footer").load("footer.html");
+	</script>
+	
+  </body>
+</html>
